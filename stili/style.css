@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.prima-pagina {
+    background-image: url(../img/fotoUno.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    text-shadow: 0.5px 0.5px 20px black;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    font-weight: 100;
+    text-shadow: 0.5px 0.5px 10px black;
+    transition: 350ms;
+}
+
+nav a:hover{
+    transform: scale(1.5);
+}
+
+.sfondo-uno {
+    background-image: url(../img/sfondoUno.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.velina {
+    background-color: rgba(255, 255, 255, 0.76);
+}
+
+.velina-black {
+    background-color: rgba(0, 0, 0, 0.76);
+}
+
+h1 {
+    text-shadow: 0.5px 0.5px 20px black;
+}
+
+.sfondo-due {
+    background-image: url(../img/sondoDue.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sfondo-tre {
+    background-image: url(../img/sfopndoTre.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.maps {
+    background-image: url(../img/maps.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.velina-due {
+    background-color: rgba(0, 0, 0, 0.897);
+}
+
+.contatti input {
+    background-color: rgb(255, 187, 0);
+    border: 1px solid rgba(170, 172, 172, 0.329);
+    border-radius: 0;
+}
+
+.contatti input::placeholder{
+    color: white;
+}
+
+.contatti select {
+    background-color: rgb(255, 187, 0);
+    border: 1px solid rgba(170, 172, 172, 0.329);
+    border-radius: 0;
+}
+
+.others {
+    color: white;
+}
+
+#special-button {
+    border-radius: 0;
+    padding: 2% 5%;
+}
+
+.my-bg-warning {
+    background-color: orange;
+}
+
+.my-velina-celeste {
+    background-color: rgba(0, 255, 255, 0.596);
+}
