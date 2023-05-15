@@ -1,3 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Great+Vibes&family=Roboto+Serif:wght@300&display=swap');
+
+h1, h2 {
+    font-family: 'Dancing Script', cursive;
+    font-weight: 400;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+.special-text {
+    font-family: 'Dancing Script', cursive;
+    font-weight: 400;
+}
+
+p, a {
+    font-family: 'Roboto Serif', serif;
+    font-weight: 300;
+    font-size: 1.1rem;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -67,7 +93,7 @@ h1 {
 }
 
 .contatti input {
-    background-color: rgb(255, 187, 0);
+    background-color: rgb(220, 195, 127);
     border: 1px solid rgba(170, 172, 172, 0.329);
     border-radius: 0;
 }
@@ -77,7 +103,7 @@ h1 {
 }
 
 .contatti select {
-    background-color: rgb(255, 187, 0);
+    background-color: rgb(220, 195, 127);
     border: 1px solid rgba(170, 172, 172, 0.329);
     border-radius: 0;
 }
